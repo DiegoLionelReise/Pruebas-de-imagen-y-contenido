@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -153,37 +152,24 @@ ul.emoji-list li::before {
   padding: 20px 0;
   font-size: 0.9rem;
 }
-
-/* Enlaces */
-a {
   color: #1E7D4D;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
-/* Galería de imágenes para servicios */
-.service-gallery {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
 }
-
-.service-gallery img {
   width: 30%;
   max-width: 300px;
   height: auto;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
-/* Reducir tamaño de la imagen del Fundador y del Senior Partner */
-.founder-photo,
-.senior-photo {
-  width: 30%; /* Ajusta este valor según lo que consideres 70% más pequeño */
+  width: 30%; 
   max-width: 150px;
   display: block;
   margin: 20px auto; /* Centrado */
