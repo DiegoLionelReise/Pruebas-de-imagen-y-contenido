@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Reise Hub - Capacitación, Desarrollo y Coaching</title>
-  <!-- Google Fonts -->
+  <!-- Google Fonts: Lato y Montserrat -->
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-  <!-- Vinculamos el CSS -->
+  <!-- Enlace al CSS -->
   <link rel="stylesheet" href="styles.css">
-  <!-- Opcional: script para scroll suave -->
+  <!-- Script para scroll suave (opcional) -->
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -23,7 +23,7 @@
   </script>
 </head>
 <body>
-  <!-- Header / Navegación -->
+  <!-- Navbar -->
   <header class="navbar">
     <div class="container">
       <h1 class="logo">Reise Hub</h1>
@@ -43,18 +43,21 @@
 
   <!-- 1. Portada -->
   <section id="portada" class="hero">
-   <img src="images/Vintage1.jpg" alt="Transformación y Aprendizaje">
     <div class="container">
-      <h2>Evolución constante.</h2>
-      <p>En Reise fusionamos capacitación y coaching en herramientas de cambio, impulsando cada espacio de tu organización hacia su máximo potencial.</p>
+      <!-- Imagen principal en el hero -->
+      <img src="images/hero.jpg" alt="Transformación y Aprendizaje" class="hero-image fade-in">
+      <h2 class="fade-in">Evolución constante.</h2>
+      <p class="fade-in">En Reise fusionamos capacitación y coaching en herramientas de cambio, impulsando cada espacio de tu organización hacia su máximo potencial.</p>
+      <!-- Imagen del Fundador en la portada -->
+      <img src="images/founder.jpg" alt="Foto del Fundador" class="founder-photo fade-in">
     </div>
   </section>
 
   <!-- 2. ¿Por qué elegirnos? -->
   <section id="porque-elegirnos" class="section">
     <div class="container">
-      <h2>¿Por qué elegirnos?</h2>
-      <p>
+      <h2 class="fade-in">¿Por qué elegirnos?</h2>
+      <p class="fade-in">
         Más de 20 años siendo protagonistas en el desarrollo y la transformación de profesionales y equipos, nos confirman que el aula es un lugar potente para generar impacto, y que una buena conversación de coaching puede generar grandes posibilidades de futuro.
       </p>
     </div>
@@ -63,8 +66,8 @@
   <!-- 3. ¿Por qué Reise? -->
   <section id="porque-reise" class="section bg-light">
     <div class="container">
-      <h2>¿Por qué Reise?</h2>
-      <ul class="custom-bullet">
+      <h2 class="fade-in">¿Por qué Reise?</h2>
+      <ul class="custom-bullet fade-in">
         <li><strong>Reise: Viaje</strong></li>
         <li>Desde el alemán, “Reise” resalta el proceso y la experiencia del recorrido, no solo el punto de partida.</li>
         <li>Desde el noruego, “Reise” subraya el impulso de partir hacia algo nuevo.</li>
@@ -76,9 +79,9 @@
   <!-- 4. ¿Cómo podemos agregar valor a tu organización? -->
   <section id="servicios" class="section">
     <div class="container">
-      <h2>¿Cómo podemos agregar valor a tu organización?</h2>
-      <h3>Servicios</h3>
-      <ul class="custom-bullet">
+      <h2 class="fade-in">¿Cómo podemos agregar valor a tu organización?</h2>
+      <h3 class="fade-in">Servicios</h3>
+      <ul class="custom-bullet fade-in">
         <li>Capacitación</li>
         <li>Formación</li>
         <li>Entrenamientos</li>
@@ -88,40 +91,54 @@
         <li>Coaching de Carrera</li>
         <li>Coaching de Vida</li>
       </ul>
-      <h3>Características de cada servicio</h3>
-      <ul class="emoji-list">
+      <h3 class="fade-in">Características de cada servicio</h3>
+      <ul class="emoji-list fade-in">
         <li><strong>Un viaje de valor:</strong> cada experiencia aporta aprendizaje real y aplicable.</li>
         <li><strong>Un camino innovador:</strong> en formatos, métodos y herramientas.</li>
         <li><strong>Un recorrido de autodescubrimiento:</strong> donde cada persona es protagonista de su desarrollo.</li>
         <li><strong>Un viaje compartido:</strong> el aprendizaje es colaborativo y significativo.</li>
         <li><strong>Una experiencia memorable:</strong> el proceso es tan valioso como el resultado.</li>
       </ul>
+      <!-- Galería de 3 imágenes alineadas horizontalmente -->
+      <div class="service-gallery fade-in">
+        <img src="images/service1.jpg" alt="Servicio 1">
+        <img src="images/service2.jpg" alt="Servicio 2">
+        <img src="images/service3.jpg" alt="Servicio 3">
+      </div>
     </div>
   </section>
 
   <!-- 5. Nuestros clientes -->
   <section id="clientes" class="section bg-light">
     <div class="container">
-      <h2>Nuestros clientes</h2>
-      <p>PwC, Givaudane, Hitech, VDH, Eresagro, Estudio Shakespear, Novakorp, ODAR</p>
+      <h2 class="fade-in">Nuestros clientes</h2>
+      <p class="fade-in">PwC, Givaudane, Hitech, VDH, Eresagro, Estudio Shakespear, Novakorp, ODAR</p>
     </div>
   </section>
 
   <!-- 6. Quiénes Somos -->
   <section id="quienes-somos" class="section">
     <div class="container">
-      <h2>¿Quiénes Somos?</h2>
-      <p><strong>Diego Lionel Gonzalez</strong> (Fundador)</p>
-      <p><strong>María Belen Maté</strong> (Senior Partner)</p>
+      <h2 class="fade-in">¿Quiénes Somos?</h2>
+      <div class="team fade-in">
+        <div class="member">
+          <img src="images/diego.jpg" alt="Diego Lionel Gonzalez">
+          <p><strong>Diego Lionel Gonzalez</strong> (Fundador)</p>
+        </div>
+        <div class="member">
+          <img src="images/senior-partner.jpg" alt="María Belen Maté - Senior Partner">
+          <p><strong>María Belen Maté</strong> (Senior Partner)</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- 7. Contacto -->
   <section id="contacto" class="section bg-dark">
     <div class="container">
-      <h2>Contacto</h2>
-      <p>Email: <a href="mailto:diego@reisehub.xyz">diego@reisehub.xyz</a></p>
-      <p>Teléfono / MOvi: +54 9 11 5104 1491</p>
+      <h2 class="fade-in">Contacto</h2>
+      <p class="fade-in">Email: <a href="mailto:diego@reisehub.xyz">diego@reisehub.xyz</a></p>
+      <p class="fade-in">Teléfono / MOvi: +54 9 11 5104 1491</p>
     </div>
   </section>
 
