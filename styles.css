@@ -1,0 +1,165 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #FFFFFF;
+  color: #002D5B;
+  line-height: 1.6;
+}
+
+/* Contenedor general */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navegación */
+.navbar {
+  background-color: rgba(0, 45, 91, 0.9); /* azul profundo semitransparente */
+  color: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar nav ul li {
+  margin-left: 20px;
+}
+
+.navbar nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Espacio para el header fijo */
+body {
+  padding-top: 70px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #002D5B;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Secciones generales */
+.section {
+  padding: 60px 20px;
+}
+
+.section h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1E7D4D;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  font-size: 1.8rem;
+  margin: 20px 0 10px;
+}
+
+/* Fondo claro y oscuro */
+.bg-light {
+  background-color: #F7F7F7;
+}
+
+.bg-dark {
+  background-color: #002D5B;
+  color: #FFFFFF;
+}
+
+/* Listas con viñetas personalizadas (opción 5) */
+ul.custom-bullet {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.custom-bullet li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+ul.custom-bullet li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 12px;
+  background-color: #FFC857;  /* amarillo cálido */
+  border-radius: 50%;
+}
+
+/* Lista con emojis */
+ul.emoji-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.emoji-list li {
+  margin-bottom: 10px;
+}
+
+ul.emoji-list li::before {
+  content: "🚀";  /* Emoji */
+  margin-right: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #002D5B;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+/* Enlaces */
+a {
+  color: #1E7D4D;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
