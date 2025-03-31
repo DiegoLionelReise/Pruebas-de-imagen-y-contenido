@@ -236,3 +236,11 @@ a:hover {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+/* Reducir tamaño de la imagen del Fundador y del Senior Partner */
+.founder-photo,
+.senior-photo {
+  width: 30%; /* Ajusta este valor según lo que consideres 70% más pequeño */
+  max-width: 150px;
+  display: block;
+  margin: 20px auto; /* Centrado */
+}
